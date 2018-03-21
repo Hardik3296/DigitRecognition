@@ -1,0 +1,11 @@
+clear;
+clc;
+hidden_neurons = 100;
+output_neurons = 10;
+input_neurons = 784;
+DataPreprocessing();
+%Visualize();
+[hid_inp_weights,out_hid_weights] = BackPropogation(input_neurons,hidden_neurons,output_neurons);
+TestingData(input_neurons,hidden_neurons,output_neurons);
+load('full_trained_weights.mat');
+Test(hid_inp_weights,out_hid_weights,input_neurons,hidden_neurons,output_neurons);
