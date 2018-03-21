@@ -16,4 +16,4 @@ The datset consisits of images of size 28 X 28 stored as a single vector of 1 X 
 * <strong>Test.m</strong> - 
 	This function is used to test the accuracy of the final trained neural network by applying feedforward on the different test examples and then matching the result with the supposed result.
 * <strong>sigm.m</strong> - 
-	This function appliesthe sigmoid activation function on the output of the hidden layer and the final output layer. This serves to bring all the weights between 0 and 1 and prevents the answer from being affected by the uneven weights of the network.
+	This function applies the sigmoid activation function on the output of the hidden layer and the final output layer. This serves to bring all the weights between 0 and 1 and prevents the answer from being affected by the uneven weights of the network.
