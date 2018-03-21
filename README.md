@@ -17,3 +17,9 @@ The datset consisits of images of size 28 X 28 stored as a single vector of 1 X 
 	This function is used to test the accuracy of the final trained neural network by applying feedforward on the different test examples and then matching the result with the supposed result.
 * <strong>sigm.m</strong> - 
 	This function applies the sigmoid activation function on the output of the hidden layer and the final output layer. This serves to bring all the weights between 0 and 1 and prevents the answer from being affected by the uneven weights of the network.
+* <strong>BackPropogation.m</strong>
+	This function is used to implement **Backpropgation algorithm** to correct the neural network and perfect it. It allows the neural network to recognize the digits more accurately.
+* <strong>main.m</strong>
+	This function controls the entire procedure. In order to visualize the training examples uncomment the **visualize()** function.
+* <strong>TestingClassWise.m</strong>
+	This function is used to test the accuracy of the trained model for each individual class seperately.
